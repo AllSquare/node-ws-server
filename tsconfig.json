@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "pretty": false,
+    "removeComments": true,
+
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "strict": false,
+
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build"
+  },
+  "buildOnSave:": true,
+  "files": [
+    "./src/main.ts"
+  ]
+}
